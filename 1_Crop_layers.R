@@ -18,7 +18,7 @@ i=1
 while (i < 20) {
   writeRaster(subset(bioclim_eur,i), paste('bio',i, sep=""), format = 'GTiff')
   #print(names(bioclim_eur)[i])
-  print(paste("finished rescaling now layer",i))
+  print(paste("finished writing now layer",i))
   i=i+1
 }
 
